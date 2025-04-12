@@ -145,7 +145,7 @@ function retry(func, attempts) {
         result = func();
         break;
       } catch (e) {
-        console.log('error');
+        // handling
       }
     }
     return result;
